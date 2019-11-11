@@ -1,0 +1,66 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    font-family: arial;
+    margin: 8px 0;
+  }
+  .form {
+    display: flex;
+    // border: 1px solid #f3f3f3;
+    // border-radius: 4px 0 0 4px;
+    #question {
+      flex-grow: 1;
+      margin: 0;
+      border: 2px solid #f3f3f3;
+      border-right: 0;
+      border-radius: 4px 0 0 4px;
+      font-size: 18px;
+    }
+    #question:focus {
+      outline-style: none;
+    }
+    #submit {
+      padding: 8px 24px;
+      border: 0;
+      background: #008cff;
+      border: 2px solid #0081ea;
+      border-left: 0;
+      border-radius: 0 4px 4px 0;
+      font-size: 24px;
+      color: #fff;
+    }
+    #submit:focus {
+      outline-style: none;
+    }
+  }
+  .card {
+    margin: 16px 0;
+    padding: 8px;
+    border-left: 4px solid #f3f3f3;
+    #person {
+      font-size: 18px;
+      color: #b2b2b2;
+      font-style: italic;
+    }
+  }
+  .coach {
+    background: #FFFEE0;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
+
+
